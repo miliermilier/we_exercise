@@ -1,0 +1,79 @@
+<html ng-app="we">
+<head>
+    <meta charset="utf-8">
+    <title>Apartments List</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="apartment-list" ng-controller="listdata">
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Minneapolis, MN: 12 Apartments</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 button-bar">
+                  <button type="button" class="btn sort-button {{popularityActive}}" ng-click="sort('popularity')">
+                    <span>Popularity</span>
+                  </button>
+                  <button type="button" class="btn sort-button {{priceActive}}" ng-click="sort('price')">
+                    <span>Price</span>
+                  </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div dir-paginate="apartment in apartments|orderBy:sortKey:reverse|filter:search|itemsPerPage:5">
+                            <div ng-click="onApartmentClick(apartment)" class="row apartment-item">
+                                <div class="col-sm-5 col">
+                                    <div class="keep-ratio-out ratio-3-to-2">
+                                        <div class="keep-ratio-in apartment-img">
+                                            <img class="cover-image" src="{{apartment.image}}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col">
+                                    <div class="keep-ratio-out ratio-21-to-10">
+                                        <div class="keep-ratio-in apartment-info">
+                                            <h4 class="title">
+                                              <span>{{apartment.name}}</span>
+                                            </h4>
+                                            <div class="detail">
+                                                <p>
+                                                    {{apartment.description}}
+                                                </p>
+                                                <p>Minneapolis, MN</p>
+                                            </div>
+                                            <div class="price">
+                                                <div>
+                                                    <span class="price-prefix">From</span>
+                                                    <span class="price-value">${{apartment.price}}</span>
+                                                </div>
+                                                <div class="price-unit">USD/Month</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <dir-pagination-controls class="row" max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/dirPagination.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>

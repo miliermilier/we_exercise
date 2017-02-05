@@ -1,0 +1,92 @@
+[
+    {
+    	"name": "Bierman Place Apartments",
+    	"image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/77858d53-5549-4a79-9d87-947092c9a385-1462925849304_m.jpg",
+    	"price": 654,
+    	"popularity": 1,
+    	"description": "University of Minnesota, Twin Cities"
+    },
+    {        	
+    	"name": "Stadium View Apartment",
+    	"image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1437611663149_m.jpg",
+    	"price": 456,
+    	"popularity": 5,
+    	"description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+    	"name": "Seven Corners",
+    	"image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1439857780164_m.jpg",
+    	"price": 321,
+    	"popularity": 3,
+    	"description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+    	"name": "Venue at Dinkytown",
+    	"image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/94c4e200-332b-11e6-91f1-ab27e1b993f1-1466017295392_56830e414a4369434f97aae7_m.jpg",
+    	"price": 632,
+    	"popularity": 7,
+    	"description": "University of Minnesota, Twin Cities"
+    },
+    {
+        "name": "The Pavilion on Berry",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1439934797533_m.jpg",
+        "price": 512,
+        "popularity": 4,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {           
+        "name": "Radius @15th",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1435008895360_m.jpg",
+        "price": 492,
+        "popularity": 5,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+        "name": "416 Lofts",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1427406959830_m.jpg",
+        "price": 460,
+        "popularity": 3,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+        "name": "Edge on Oak",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1432946302638_m.jpg",
+        "price": 532,
+        "popularity": 7,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {
+        "name": "Keeler Apartments",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1432943665259_m.jpg",
+        "price": 555,
+        "popularity": 4,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {           
+        "name": "University Commons",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/website/1445896443562_m.jpg",
+        "price": 436,
+        "popularity": 5,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+        "name": "GrandMarc Seven Corners",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/7fd5acb0-e87f-4a28-b445-7dfc8d8c1502-1462925861373_m.jpg",
+        "price": 387,
+        "popularity": 3,
+        "description": "University of Minnesota, Twin Cities"
+    },
+    {
+
+        "name": "Station on Washington",
+        "image": "https://s3-us-west-2.amazonaws.com/we-housing-images/medium/df948f1e-4bd1-43bf-8ac1-133bab8b6ce5-1462925802905_m.jpg",
+        "price": 246,
+        "popularity": 7,
+        "description": "University of Minnesota, Twin Cities"
+    }
+]
